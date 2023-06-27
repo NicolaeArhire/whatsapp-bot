@@ -1,0 +1,2 @@
+*.wwebjs_auth filter=lfs diff=lfs merge=lfs -text
+*.wwebjs_cache filter=lfs diff=lfs merge=lfs -text

@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // dotenv.config({ path: path.join(__dirname, "../.env") });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const messageContent = "Super";
 
 // app.use(express.static(path.join(__dirname, "../build"))); // only backend deployed, no frontend needed
